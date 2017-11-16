@@ -28,4 +28,8 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
 	runtime('org.postgresql:postgresql')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+	// https://mvnrepository.com/artifact/com.codiform/moo-core
+	compile group: 'com.codiform', name: 'moo-core', version: '2.0'
+
+
 }
